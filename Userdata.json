@@ -1,26 +1,37 @@
-[
-    {
-        "device_id": "device123",
-        "key": "key12345",
-        "expirydate": "31-12-2025",
-        "Allowoffline": true
+{
+  "app_status": {
+    "is_disabled": false,
+    
+  "update_config": {
+      "enabled": true,
+      "version_name": "9.9.9",
+      "title": "🚨 ALERT: Fake App Detected! 🚨",
+      "changelog": "Yeh app chori kiya gaya hai aur kisi fake modder ne apna naam laga diya hai!\n\nApp enjoy karein, lekin hamesha real creator ko support karein. Asli aur safe updates ke liye real developer se contact karein.\n\nHamara Official Telegram Channel join karein:\n@MODDERHUB1",
+      "download_url": "https://t.me/",
+      "is_force_update": true,
+      "positive_btn": "Join NMMS Channel",
+      "negative_btn": ""
+
     },
-    {
-        "device_id": "device456",
-        "key": "key67890",
-        "expirydate": "15-06-2025",
-        "Allowoffline": false
+
+    "dialog_notice": {
+      "enabled": true,
+      "title": "Important Notice",
+      "message": " TRY SOMETIMES TYPE LETER. CONTACT US @p IN TELEGRAM ",
+      "button_text": "OK GOT IT ",
+      "should_crash": false
     },
-    {
-        "device_id": "8995cc2ec0b98ec0",
-        "key": "dgfs-yej",
-        "expirydate": "4-07-2026",
-        "Allowoffline": false
+    
+    "normal_toast": {
+      "enabled": true,
+      "message": "⚠️: Fake App! Contact Real Developer @p",
+      "toast_count": 10
     },
-    {
-        "device_id": "be7e4626ced84707",
-        "key": "dgfs-yifj",
-        "expirydate": "30-07-2026",
-        "Allowoffline": false
+    
+    "crash_config": {
+      "enabled": false,
+      "message": "Fake App! Contact Real Developer @p",
+      "toast_count": 4
     }
-]
+  }
+}
